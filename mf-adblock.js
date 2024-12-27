@@ -8,6 +8,7 @@
 // @icon         https://getadblock.com/favicon.ico
 // @grant        none
 // @noframes
+// @updateURL https://raw.githubusercontent.com/Firepup6500/tampermonkey-mf-adblock/refs/heads/main/mf-adblock.js
 // ==/UserScript==
 
 (function() {
@@ -35,6 +36,7 @@
     })();
     let sites = {
         /*
+		If changes are made, delete updateURL above or tamper monkey will revert changes.
         'example.com': { // website domain, can be regex.
             remove: ['.some-class','#some-element'], // Hide these elements (used for ads) - (DOES NOT REMOVE THEM, JUST HIDES THEM)
             click: ['.class','#element'], // Click these elements (used for cookie consent)
