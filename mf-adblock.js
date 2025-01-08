@@ -8,6 +8,7 @@
 // @icon         https://getadblock.com/favicon.ico
 // @grant        none
 // @noframes
+// @downloadURL https://raw.githubusercontent.com/Firepup6500/tampermonkey-mf-adblock/refs/heads/main/mf-adblock.js
 // @updateURL https://raw.githubusercontent.com/Firepup6500/tampermonkey-mf-adblock/refs/heads/main/mf-adblock.js
 // ==/UserScript==
 
